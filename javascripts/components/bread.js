@@ -9,7 +9,7 @@ const breads = [
 
 const getSelectedBreads = () => {
     const selectedBreads = [];
-    // get all cheese checkboxes
+    // get all bread checkboxes
     const breadCheckboxes = document.getElementsByClassName('bread');
     console.log(breadCheckboxes);
     // keep the checked ones in a new array
