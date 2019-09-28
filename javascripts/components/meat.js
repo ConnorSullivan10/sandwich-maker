@@ -1,10 +1,10 @@
 import utilities from '../helpers/utilities.js';
 
 const meats = [
-    {id:"meat1", name: "roast beef", price: 400 },
-    {id:"meat2", name: "dank steak", price: 700 },
-    {id:"meat3", name: "gator tail", price: 800 },
-    {id:"meat4", name: "fire chicken", price: 300 },
+    {id:"meat1", name: "Impossible Beef", price: 400 },
+    {id:"meat2", name: "Dank Steak", price: 700 },
+    {id:"meat3", name: "Gator Tail", price: 800 },
+    {id:"meat4", name: "Fire Chicken", price: 300 },
 ];
 
 const getSelectedMeats = () => {

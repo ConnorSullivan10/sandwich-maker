@@ -9,7 +9,7 @@ const createFinalOrder = (items) => {
     let domstring2 = `
             <div class="card text-center">
                 <div class="card-header">
-                    Custom Sandwich
+                    Custom Sandwich Builder
                 </div>
                 <div class="card-body">
                     `;
