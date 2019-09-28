@@ -3,7 +3,7 @@ import utilities from '../helpers/utilities.js';
 const breads = [
     {id:"bread1", name: "wheat", price: 50 },
     {id:"bread2", name: "rye", price: 90 },
-    {id:"bread3", name: "banana", price: 500 },
+    {id:"bread3", name: "holy bread", price: 500 },
     {id:"bread4", name: "white", price: 0 },
 ];
 
