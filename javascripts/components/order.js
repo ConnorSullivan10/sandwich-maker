@@ -1,27 +1,21 @@
 import bread from './bread.js';
+import veggie from './veggie.js';
 import utilities from '../helpers/utilities.js'
 
 const createFinalOrder = (items) => {
     let domstring2 = '';
     for(let i = 0; i < items.length; i++){
         domstring2 += `
-        <div class="card text-center">
-            <h2 class="card-header">
-                Final Sandwich Order
-            </h2>
-            <div class="card-body">
-                <h3>${items[i].name} ${items[i].price}</h3>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        `;
+        <h3>${items[i].name} ${items[i].price}</h3>`;
     }
     utilities.printToDom('final-order', domstring2);
 };
 
 const createOrderEvent= () => {
     const selectedBreads = bread.getSelectedBreads();
-    createFinalOrder(selectedBreads);
+    const selectedVeggies = veggie.getSelectedVeggies();
+    const allItems = selectedBreads.concat(selectedVeggies);
+   createFinalOrder(allItems);
 };
 
 const printOrderButton = () => {
