@@ -1,10 +1,10 @@
 import utilities from '../helpers/utilities.js';
 
 const condiments = [
-    {id:"condiment1", name: "grey poupon", price: 200 },
-    {id:"condiment2", name: "hot sauce", price: 50 },
-    {id:"condiment3", name: "lite mayo", price: 50 },
-    {id:"condiment4", name: "zax sauce", price: 75 },
+    {id:"condiment1", name: "Grey Poupon", price: 200 },
+    {id:"condiment2", name: "Hot Sauce", price: 50 },
+    {id:"condiment3", name: "Lite Ranch", price: 50 },
+    {id:"condiment4", name: "Zax Sauce", price: 75 },
 ];
 
 const getSelectedCondiments = () => {

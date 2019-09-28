@@ -5,3 +5,8 @@ body {
 .container {
     justify-content: space-evenly;
 }
+
+.ingredient {
+    margin-left: 1em;
+    margin-right: 1em;
+}
