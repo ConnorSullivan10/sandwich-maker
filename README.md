@@ -4,8 +4,8 @@
 Use this application to select sandwich ingredients and get a final cost for your custom sandwich creation. 
 
 ## Screenshots
-![Sandwich Maker Preview]()
-![Sandwich Maker Preview]()
+![Sandwich Maker Preview](https://raw.githubusercontent.com/ConnorSullivan10/sandwich-maker/master/screenshots/sandwichmaker.PNG)
+![Sandwich Maker Preview](https://raw.githubusercontent.com/ConnorSullivan10/sandwich-maker/master/screenshots/sandwichmaker2.PNG)
 
 ## How to run
 * Clone down this project
