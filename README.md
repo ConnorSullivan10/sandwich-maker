@@ -11,5 +11,5 @@ Use this application to select sandwich ingredients and get a final cost for a s
 1. Clone down this project.
 2. Go to: `https://www.npmjs.com/package/http-server` and install "http-server".  
 2. Navigate to the project folder in command line interface and type: `http-server -p 8888`  
-3. This will show at: `http://localhost:8889` in your internet browser.  
+3. This will show at: `http://localhost:8888` in your internet browser.  
 
