@@ -10,6 +10,7 @@ const createFinalOrder = (items) => {
             <div class="card text-center">
                 <div class="card-header">
                     Custom Sandwich Builder
+                    <button class="close d-flex justify-content-end">X</button>
                 </div>
                 <div class="card-body">
                     `;
@@ -26,7 +27,8 @@ const createFinalOrder = (items) => {
   sum /= 100;
   const totalIngredientPrice = sum.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
   domstring2 += `<hr>
-    <h5>Noice sandwich dude. Your total is ${totalIngredientPrice}</h5>
+    <img src="https://media.giphy.com/media/Ls6ahtmYHU760/giphy.gif">
+    <h5>Nice sandwich dude. Your total is ${totalIngredientPrice}.</h5>
     <a href="#" class="btn btn-primary">Place Order</a>
         </div>
     </div>`;
