@@ -4,11 +4,11 @@
 * HTML, CSS & Javascript
 
 ## Description
-Use this application to select sandwich ingredients and get a final cost for a super-awesome custom sandwich creation. Simply click the checkboxes for the ingredients that you'd like in your custom sandwich, and once you're finished selecting options, click the "Build Your Custom Sandwich" button to see your total for your custom sandwich creation!
+Use this application to select sandwich ingredients and get a final cost for a super-awesome custom sandwich creation. Simply click the checkboxes for the ingredients that you'd like in your custom sandwich, and once you're finished selecting options, click the "Build Your Custom Sandwich" button to see your total cost for your custom sandwich creation!
 
 ## Screenshots
-![Sandwich Maker Preview](https://raw.githubusercontent.com/ConnorSullivan10/sandwich-maker/master/screenshots/sandwichmaker.PNG)
-![Sandwich Maker Preview](https://raw.githubusercontent.com/ConnorSullivan10/sandwich-maker/master/screenshots/sandwichmaker2.PNG)
+![Sandwich Maker Preview](https://raw.githubusercontent.com/ConnorSullivan10/sandwich-maker/master/screenshots/sandwichPreview1.PNG)
+![Sandwich Maker Preview](https://raw.githubusercontent.com/ConnorSullivan10/sandwich-maker/master/screenshots/sandwichPreview2.PNG)
 
 ## How to run
 1. Clone down this project.
