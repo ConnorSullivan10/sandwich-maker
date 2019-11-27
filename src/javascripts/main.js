@@ -1,4 +1,5 @@
 import 'bootstrap';
+import '../styles/main.scss';
 import bread from './components/bread';
 import veggie from './components/veggie';
 import condiment from './components/condiment';
@@ -7,7 +8,6 @@ import meat from './components/meat';
 import sandwich from './components/sandwich';
 
 const init = () => {
-// do stuff
   bread.printBreadOptions();
   veggie.printVeggieOptions();
   condiment.printCondimentOptions();
